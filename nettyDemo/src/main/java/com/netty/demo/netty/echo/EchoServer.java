@@ -33,7 +33,6 @@ public class EchoServer {
     }
     public void start() throws Exception{
 
-
         // 这个group 实际上是一个线程池
         EventLoopGroup bossgroup = new NioEventLoopGroup();
         // 第二个线程池
